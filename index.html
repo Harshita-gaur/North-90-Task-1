@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="container">
+        <div class="left-menu">
+            <p><a href="https://drive.google.com/file/d/1iaScHnfX3AdItd1oqB2-2X7aGwyvAuIv/view?usp=sharing" target="_blank">RESUME</a></p>
+        </div>
+
+        <div class="main-content">
+            <h2 class="assignment-heading">Assignment Tasks</h2>
+
+            <div class="content-box">
+                <h1>Main Content Area</h1>
+                <p>This is the main content section of the webpage.</p>
+            </div>
+
+            <div class="collapsible-container">
+                <div class="collapsible" onclick="toggleLeftMenu()">Toggle Left Menu</div>
+                <div class="collapsible" onclick="toggleRightMenu()">Toggle Right Menu</div>
+            </div>
+
+            <section class="additional-section">
+                <h2>1. Create a responsive webpage with the following features:</h2><br>
+                <ul>
+                    <li>A fixed navbar that does not move when scrolling.</li>
+                    <li>Below the navbar, create three sections: a left menu, a main content area, and a right-side panel.</li>
+                    <li>Include a footer at the bottom.</li>
+                    <li>Make the left menu collapsible.</li>
+                </ul>
+            </section>
+
+            <section class="additional-section">
+                <h2>2. For the same webpage, write a JavaScript function that does the following:</h2><br>
+                <ul>
+                    <li>If the screen width is between 992px and 1600px, shrink the page by 90%.</li>
+                    <li>If the screen width is between 700px and 767px, shrink the page by 80%.</li>
+                    <li>If the screen width is between 600px and 700px, shrink the width to 75%.</li>
+                    <li>If the screen width is less than or equal to 600px, shrink the width to 50%.</li>
+                </ul>
+            </section>
+
+            <section class="additional-section">
+                <h2>Additional Section 1</h2>
+            </section>
+
+            <section class="additional-section">
+                <h2>Additional Section 2</h2>
+            </section>
+
+            <section class="additional-section">
+                <h2>Additional Section 3</h2>
+            </section>
+
+            <section class="additional-section">
+                <h2>Additional Section 4</h2>
+            </section>
+        </div>
+
+        <div class="right-panel">
+                <h3>Connect with Me</h3>
+            <ul class="social-links">
+                <li><a href="https://github.com/Harshita-gaur" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/harshita-gaur/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://leetcode.com/u/Harshita_gaur/" target="_blank">LeetCode</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        Footer Content
+    </div>
+
+    <script src="script.js"></script> 
+</html>
